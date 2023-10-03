@@ -18,7 +18,7 @@ function LineChart() {
       );
       response.data.dashbord.forEach((result) => {
         if (result.intensity && result.end_year) {
-          intensity.push(Number(result.intensity)); // Convert to numbers
+          intensity.push(result.intensity); // Convert to numbers
           year.push(result.end_year);
         }
       });

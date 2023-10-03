@@ -5,11 +5,7 @@ import LineChart from "./LineCharts";
 import ScatterPlot from "./ScatterPlot";
 import StackedBarChart from "./StackedBarChart";
 import BarChart from "./Barcharts";
-const data = [
-  { label: "Category 1", value: 30 },
-  { label: "Category 2", value: 50 },
-  { label: "Category 3", value: 20 },
-];
+import RadarChart from "./Radar";
 
 function App() {
   return (
@@ -19,6 +15,7 @@ function App() {
       <LineChart />
       <ScatterPlot />
       <StackedBarChart />
+      <RadarChart />
     </div>
   );
 }
