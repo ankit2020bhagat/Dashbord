@@ -1,5 +1,6 @@
 import mongoose from "mongoose";
-const mongoDBUrl = "mongodb://127.0.0.1:27017/dashbord";
+const mongoDBUrl = "mongodb+srv://durgarajvansh3:5MGU7hJOtqg3M1Ep@cluster0.jnryhzx.mongodb.net/?retryWrites=true&w=majority";
+
 const connectDB = async () => {
   try {
     await mongoose.connect(mongoDBUrl, {

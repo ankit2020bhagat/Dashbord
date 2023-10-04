@@ -84,7 +84,7 @@ const ScatterPlot = () => {
   return (
     <div>
       <h1>Scatter Plot</h1>
-      <svg ref={svgRef} width={600} height={600}></svg>
+      <svg ref={svgRef} width={550} height={500}></svg>
     </div>
   );
 };

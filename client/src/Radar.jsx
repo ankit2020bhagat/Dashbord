@@ -106,7 +106,8 @@ function RadarChart() {
         .attr("y", centerY + Math.sin(i * angleSlice) * (radius + 10))
         .text(years[i])
         .style("font-size", "14px")
-        .style("text-anchor", "middle");
+        .style("text-anchor", "middle")
+        
     }
 
     // Add a legend or tooltip as needed

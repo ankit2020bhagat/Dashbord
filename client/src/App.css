@@ -1,4 +1,46 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: rgb(3, 7, 49);
+}
 .App {
   text-align: center;
-  color: blue;
+}
+.barchart{
+  background-color: rgb(27, 16, 92);
+  color: white;
+  border-radius:10px ;
+  text-align: center;
+}
+.piechart{
+  background-color: rgb(27, 16, 92);
+  color: white;
+  border-radius:10px ;
+  text-align: center;
+}
+.linechart{
+  background-color: rgb(27, 16, 92);
+  color: white;
+  border-radius:10px ;
+  text-align: center;
+}
+.scatterplot{
+  background-color: rgb(27, 16, 92);
+  color: white;
+  border-radius:10px ;
+  text-align: center;
+}
+.stackedbarchart{
+  background-color: rgb(27, 16, 92);
+  color: white;
+  border-radius:10px ;
+  text-align: center;
+  
+}
+
+.radarchart{
+  background-color: rgb(27, 16, 92);
+  color: white;
+  border-radius:10px ;
+  text-align: center;
 }

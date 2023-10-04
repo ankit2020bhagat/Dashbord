@@ -105,7 +105,7 @@ const StackedBarChart = () => {
   return (
     <div>
       <h2>Stacked Bar Chart</h2>
-      <svg ref={svgRef} width={1000} height={800}>
+      <svg ref={svgRef} width={600} height={400}>
         {/* Chart contents will be rendered here */}
       </svg>
     </div>
